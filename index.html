@@ -9,13 +9,12 @@
         body {
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
         }
         .container {
-            max-width: 600px;
             width: 100%;
             padding: 20px;
             box-sizing: border-box;
-            margin: 0 auto;
             text-align: center;
         }
         .buttons {
@@ -29,10 +28,13 @@
             min-width: 120px;
             padding: 10px;
             font-size: 1rem;
+            box-sizing: border-box;
         }
         .gif_container img {
             max-width: 100%;
             height: auto;
+            display: block;
+            margin: 20px auto 0;
         }
         @media (max-width: 480px) {
             .buttons button {
