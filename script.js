@@ -54,16 +54,16 @@
 })();
 */
 const messages = [
-    "Are you sure?",
-    "Really sure??",
-    "Are you positive?",
-    "Pookie please...",
-    "Just think about it!",
-    "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Are u sure?",
+    "Sigh",
+    "Do u hate me :(",
+    "Meanoo pweeez",
+    "Thora soch lo",
+    "Mujhay rona araha :((((",
+    "I shall kms",
+    "Why do u hate me?",
+    "Lagta hai chamaaat ka mood hai",
+    "I kid. Pweez say yes ❤️"
 ];
 
 let messageIndex = 0;
