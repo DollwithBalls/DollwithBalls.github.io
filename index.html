@@ -3,15 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do you think im cute? </title>
+    <title>Do you think im cute?</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .buttons button {
+            flex: 1 1 45%;
+            min-width: 120px;
+            padding: 10px;
+            font-size: 1rem;
+        }
+        .gif_container img {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width: 480px) {
+            .buttons button {
+                flex: 1 1 100%;
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Do you think im cute?</h1>
         <div class="buttons">
-            <button class="yes-button" onclick="handleYesClick()">Yeshhhh </button>
-            <button class="no-button" onclick="handleNoClick()">Nauurr </button>
+            <button class="yes-button" onclick="handleYesClick()">Yeshhhh</button>
+            <button class="no-button" onclick="handleNoClick()">Nauurr</button>
         </div>
         <div class="gif_container">
             <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5lenZyZHI5OXM2eW95b3pmMG40cWVrMDhtNjVuM3A4dGNxa2g2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VM1fcpu2bKs1e2Kdbj/giphy.gif" alt="Cute GIF">
